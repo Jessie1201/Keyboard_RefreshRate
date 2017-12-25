@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+    </head>
 	<body>
 
 		<!-- Header -->
@@ -20,10 +20,11 @@
 						<header>
 							<p>Test keyboard scanning rate</p>
 							<h2 style="font-size: 3.5rem">Quickly &  Constantly Press your Keys for Seconds!</h2>
-                            <h3 style="font-size: 1.25rem"><br>Until you see the Result.</h3>
+                            <h3 style="font-size: 1.25rem"><br>Until told that's Enough.</h3>
 						</header>
 					</div>
 				</article>
+                <p style="position: absolute; bottom: 0; right: 48%; z-index:1;"><i class="fa fa fa-sort-desc fa-4x" aria-hidden="true"></i></p>
 			</section>
 
 		<!-- One -->
@@ -36,9 +37,9 @@
 								<div class="content">
 									<header class="align-center">
 										<p>input</p>
-                                        <h2>Keys Holding Time<span style="font-size: 1rem">ms</span> Recognized</h2>
+                                        <h2>Keys Pressing Time<span style="font-size: 1rem">ms</span> Recognized</h2>
 									</header>
-                                    <p id="inputinstr" style="font-size: 1.5rem;text-align: center;color:red">Still need more keystrokes</p>
+                                    <p id="inputinstr" style="font-size: 1.5rem;text-align: center;color:red">Need more keystrokes for precision!</p>
                                     <p class="align-center"> <span id="timelast">waiting for your keystrokes</span></p>
 								</div>
 							</div>
@@ -51,7 +52,8 @@
 										<p>output</p>
 										<h2>Scan Rate of Your Keyboard</h2>
 									</header>
-									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+                                    <div class="button raised" id="resultbutton" style="width: 100%">Get Result</div>
+									<p class="align-center"> <span id="scanrate"></span></p>
 								</div>
 							</div>
 						</div>
@@ -76,12 +78,13 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-            <script src="assets/js/refresh_rate.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/refresh_rate.js"></script>
+        <script src="assets/js/fft.js"></script>
 
 	</body>
 </html>

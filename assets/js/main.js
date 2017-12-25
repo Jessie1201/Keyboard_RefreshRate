@@ -3,6 +3,7 @@
 	templated.co @templatedco
 */
 
+
 var settings = {
 
 	banner: {

@@ -3410,7 +3410,7 @@
 
 /* Flexgrid */
 
-#timelast{
+#timelast, #scanrate{
     overflow-wrap: break-word;
 }
 	.grid-style {
@@ -4292,6 +4292,7 @@
 
 /* Footer */
 
+
 	#footer {
 		padding: 4rem 0 2rem 0 ;
 		background: #000;
@@ -4321,3 +4322,24 @@
 			}
 
 		}
+
+
+
+
+
+
+    /* Get Result Button. Commented away because it crashes the scroll */
+
+/*
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+*/
