@@ -1,6 +1,9 @@
-# Keyboard_RefreshRate
-An HCI program that computes the scan rate of your keyboard.
-Open index.html, then follow the instruction.
+# What is Keyboard Refresh Rate Evaluator?
+It's an HCI program that computes the scan rate of your keyboard.
+
+# How to use it?
+https://jessie1201.github.io/Keyboard_RefreshRate/
+Follow the instruction to evaluate your keyboard scan rate.
 
 # Theory
 The scan rate (refresh rate) indicates the frequency the keyboard updates the state of its key matrix.
